@@ -1,0 +1,74 @@
+/* #48.1
+li:first-child {
+    color: red;
+}
+*/
+
+/* #48.2
+li:last-child {
+    color: green;
+}
+*/
+
+/* #48.3
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: green;
+}
+*/
+
+/* #48.4
+li:nth-child(3) {
+    color: red;
+}
+*/
+
+/* #48.5
+li:nth-child(even) {
+    color: green;
+}
+
+li:nth-child(odd) {
+    color: red;
+}
+*/
+
+/* #48.6
+li:nth-child(3n) {
+    color: red;
+}
+*/
+/* (3n - каждая третья) */
+
+/* #48.7
+li:nth-last-child(2) {
+    color: red
+}
+*/
+/* (2 с конца) */
+
+/* #48.8
+li:only-child {
+    color: red;
+}
+*/
+/* (Единственный потомок) */
+
+/* #48.9
+li:empty {
+    color: blue;
+    border: 1px solid blue;
+	list-style-type: circle;
+	width: 100px;
+}
+
+li {
+    color: red;
+    border: 1px solid red;
+	list-style-type: circle;
+	width: 100px;
+}
+*/

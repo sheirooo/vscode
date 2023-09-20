@@ -1,0 +1,22 @@
+/* #36.1
+#elem h2.bbb {
+    color: red;
+}
+*/
+
+/* #36.2
+#elem .text {
+    color: green;
+}
+*/
+
+/* #36.3
+#elem p.text {
+    color: blue;
+}
+*/
+
+/* #36.4 */
+#elem li.text {
+    color: purple;
+}

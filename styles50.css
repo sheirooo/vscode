@@ -1,0 +1,17 @@
+/* #50.1
+li:not(.elem) {
+    color: red;
+}
+*/
+
+/* #50.2
+li:not(:first-child) {
+    color: green;
+}
+*/
+
+/* #50.3
+li:not(:first-child, :last-child) {
+    color: yellow;
+}
+*/

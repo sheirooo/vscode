@@ -1,0 +1,40 @@
+/* Task #12.1 */
+h1 {
+    text-align: right;
+}
+
+/* Task 12.2 */
+h2 {
+    text-align: center;
+}
+
+/* Tast 12.3 */
+table {
+    width: 500px;
+}
+
+/* Task 12.4 */
+th {
+    text-align: left;
+}
+
+/* Tast 12.5 */
+td {
+    text-align: center;
+}
+
+/* Task 12.6 */
+p {
+    width: 300px;
+}
+
+/* Tast 12.7 */
+p {
+    text-align: justify;
+}
+
+/* Tast 12.8 */
+h2 {
+    text-align: center;
+    width: 300px;
+}

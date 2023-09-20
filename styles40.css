@@ -1,0 +1,100 @@
+/* #40.1
+.eee {
+    color: red;
+}
+*/
+
+/* #40.2
+.elem .bbb {
+    color: red;
+}
+*/
+
+/* #40.3
+#block p {
+    color: red;
+}
+*/
+
+/* #40.4
+#block h2 {
+    color: red;
+}
+*/
+
+/* #40.5
+.bbb {
+    color: red;
+}
+*/
+
+/* #40.6
+#block .bbb {
+    color: red;
+}
+*/
+
+/* #40.7
+p.bbb {
+    color: red;
+}
+*/
+
+/* #40.8
+h2.bbb {
+    color: red;
+}
+*/
+
+/* #40.9
+#block p.bbb {
+    color: red;
+}
+*/
+
+/* #40.10
+.bbb, .xxx {
+    color: red;
+}
+*/
+
+/* #40.11
+p.bbb, h2.xxx {
+    color: red;
+}
+*/
+
+/* #40.12
+#block p.bbb, #block p.xxx {
+    color: red;
+}
+*/
+
+/* #40.13
+.fff {
+    color: red;
+}
+*/
+
+/* #40.14
+.fff p {
+    color: red;
+}
+*/
+
+/* #40.15
+p.fff {
+    color: red;
+}
+*/
+
+/* #40.16
+.fff .bbb {
+    color: red;
+}
+*/
+
+/* #40.17 */
+.fff h2.bbb {
+    color: red;
+}

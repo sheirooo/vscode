@@ -1,0 +1,34 @@
+/* #32.1 */
+.eee i {
+    color: red;
+}
+
+/* #32.2 */
+.eee .bbb {
+	color: red;
+}
+
+/* #32.3 */
+.eee1 h2 {
+	color: red;
+}
+
+/* #32.4 */
+.eee2 h2.bbb1 {
+	color: red;
+}
+
+/* #32.5 */
+.eee3 h3.bbb2 {
+	color: red;
+}
+
+/* #32.6 */
+.eee4 p.bbb3 {
+	color: red;
+}
+
+/* #32.7 */
+.eee5 .bbb4 .kkk {
+	color: red;
+}

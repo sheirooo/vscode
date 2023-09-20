@@ -1,0 +1,19 @@
+/* #33.1 */
+p.bbb {
+	color: red;
+}
+
+/* #33.2 */
+p .bbb1 {
+	color: red;
+}
+
+/* #33.3 */
+.eee p.bbb2 {
+	color: red;
+}
+
+/* #33.4 */
+.eee1 p .bbb3 {
+	color: red;
+}

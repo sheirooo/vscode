@@ -1,0 +1,26 @@
+/* #49.1
+h2:first-of-type {
+    color: blue;
+}
+
+p:last-of-type {
+    color: orange;
+}
+*/
+
+/* #49.2
+p:nth-of-type(odd) {
+    color: purple;
+}
+
+h2:nth-last-of-type(3) {
+    color: yellow;
+}
+*/
+
+/* #49.3
+div:only-of-type {
+    border: 1px dashed black;
+    color: yellowgreen;
+}
+*/
