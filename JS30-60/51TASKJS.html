@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+            // #51.1
+            // let test = Boolean(3);
+            // alert(test);
+            // Выведет true, потому что нет ничего, связанного с ошибкой или нулем.
+            
+            // #51.2
+            // let test = Boolean(0);
+            // alert(test);
+            // Выведет false, потому как 0 в JS в этой функции всегда будет его выдавать.
+
+            // #51.3
+            // let test = Boolean(-1);
+            // alert(test);
+            // Выведет true, потому что значение -1 никак не связано с ошибками или нулем.
+
+            // #51.4
+            // let test = Boolean(-0);
+            // alert(test);
+            // Выведет false, потому как -0 в JS в этой функции всегда будет его выдавать.
+
+            // #51.5
+            // let test = Boolean(+0);
+            // alert(test);
+            // Выведет false, потому как +0 в JS в этой функции всегда будет его выдавать.
+
+            // #51.6
+            // let test = Boolean('abc');
+            // alert(test);
+            // Выведет true, потому что строка 'abc' никак не связана с ошибками или нулем.
+
+            // #51.7
+            // let test = Boolean('');
+            // alert(test);
+            // Выведет false, потому как пропуск тоже в этой функции является false.
+
+            // #51.8
+            // let test = Boolean('0');
+            // alert(test);
+            // Выведет true, потому как в этом участке кодинга 0 берётся как строка.
+
+            // #51.9
+            // let test = Boolean(true);
+            // alert(test);
+            // Выведет true, потому как изначально задается, что true есть true.
+
+            // #51.10
+            // let test = Boolean(false);
+            // alert(test);
+            // Выведет false, потому как изначально задается, что false есть false.
+
+            // #51.11
+            // let test = Boolean('true');
+            // alert(test);
+            // Выведет true, потому как любая строка кроме пустой будет являться true.
+            
+            // #51.12
+            // let test = Boolean('false');
+            // alert(test);
+            // Выведет true, потому как любая строка кроме пустой будет являться true.
+
+            // #51.13
+            // let test = Boolean(null);
+            // alert(test);
+            // Выведет false, потому как null выдаст "ошибку" и она всегда будет являться false.
+
+            // #51.14
+            // let test = Boolean('null');
+            // alert(test);  
+            // Выведет true, потому как любая строка кроме пустой будет являться true.  
+
+            // #51.15
+            // let test = Boolean(undefined);
+            // alert(test);
+            // Выведет false, потому как undefined выдаст "ошибку" и она всегда будет являться false.
+
+            // #51.16
+            // let test = Boolean('undefined');
+            // alert(test);
+            // Выведет true, потому как любая строка кроме пустой будет являться true.
+
+            // #51.17
+            // let test = Boolean(NaN);
+            // alert(test);
+            // Выведет false, потому как NaN выдаст "ошибку" и она всегда будет являться false.
+            
+            // #51.18
+            // let test = Boolean('NaN');
+            // alert(test);
+            // Выведет true, потому как любая строка кроме пустой будет являться true.
+
+            // #51.19
+            // let test = Boolean(3 * 'abc');
+            // alert(test);
+            // Выведет false, потому как умножить число на строку невозможно.
+
+            // #51.20
+            // let test = Boolean(Infinity);
+            // alert(test);
+            // Выведет true, потому как базово эта функция присвает бесконечности значение true.
+
+            // #51.21
+            // let test = Boolean(1 / 0);
+            // alert(test);
+            // Выведет true, потому как 1 / 0 будет равно по сути бесконечности, а бесконечность(infinity) является в этой функции - true.
+        </script>
+	</head>
+	<body>
+		text!
+	</body>
+</html>
